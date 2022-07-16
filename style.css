@@ -10,9 +10,7 @@
 #menu{
 background-color: #282d32;	
 }
-#contact-form{
-	margin-top: 250px;
-}
+
 .navbar{
 	position: fixed;
 	top: 0;
@@ -70,20 +68,20 @@ background-color: #282d32;
 	position: relative;
 	height: 100%;
 	width:100%;
-	background: url("photos/r1.jpg");
-	background-size: 100% 100%;
+	background: url("images/7.jpg");
+	background-size: 100%;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
-	background: url('photos/gs.jpg');
-	background-size: 100% 100%;
+	background: url('images/10.jpg');
+	background-size: 100% ;
 	background-position: center;
 	background-attachment: fixed;
 }
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
-	background: url('photos/helmet.jpg');
-	background-size: 100% 100%;
+	background: url('images/11.jpg');
+	background-size: 100% ;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -115,6 +113,22 @@ background-color: #282d32;
 	font-size: 1.2em;
 	font-weight: 500;
 }
+/* ==============================about area=========================================== */
+#about-card{
+	border-style: none;
+	
+}
+#about-card-photo{
+margin-bottom:-160px;
+}
+/* ==============================end about area=========================================== */
+
+/* ==============================contact area=========================================== */
+#contact-form{
+	margin-top: 140px;
+}
+/* ==============================end contact area=========================================== */
+
 
 /* ==============================footer=========================================== */
 
