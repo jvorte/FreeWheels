@@ -139,7 +139,8 @@ margin-top: 130px;
 	width: 20rem; 
 	float: left;
 	margin: 18px;
-	box-shadow: 0 15px 30px 1px grey;
+	border-style: none;
+	text-align: center;
 }
 #cards img{
 height: 200px;
