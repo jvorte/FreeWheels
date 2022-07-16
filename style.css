@@ -130,6 +130,23 @@ margin-bottom:-160px;
 }
 /* ==============================end contact area=========================================== */
 
+/* ==============================categories area=========================================== */
+#categories-area{
+margin-top: 130px;
+}
+
+#cards{
+	width: 20rem; 
+	float: left;
+	margin: 18px;
+	box-shadow: 0 15px 30px 1px grey;
+}
+#cards img{
+height: 200px;
+}
+/* ==============================end categories area=========================================== */
+
+
 
 /* ==============================footer=========================================== */
 
@@ -139,6 +156,7 @@ margin-bottom:-160px;
 	color:#f0f9ff;
 	background-color:#282d32;
     margin-top: 36px;
+	clear: both;
   }
   
   .footer-dark h3 {
