@@ -9,14 +9,20 @@
 	
 }
 #menu{
-background-color: #282d32;	
+background-color: #282d32;
+
 }
 body{
-	background-color: #F1F1F1;
+	/* background-color: #F1F1F1; */
+	background-image: url(images/amb-001.jpg);
+background-size: contain;
+		
 }
+
 a{	
 	color: black;
 }
+
 a:hover{
 	color: rgb(99, 41, 41);
 }
@@ -126,24 +132,28 @@ a:hover{
 /* ==============================about area=========================================== */
 #about-card{
 	border-style: none;
+	margin-top: 140px;
 	
 }
 #about-card-photo{
-margin-bottom:-160px;
+margin-top: -180px;
+margin-bottom:-180px;
 }
 /* ==============================end about area=========================================== */
 
 /* ==============================contact area=========================================== */
 #contact-form{
-	margin-top: 140px;
-	
+	margin-top: 185px;
+	margin-bottom:180px;
 }
 /* ==============================end contact area=========================================== */
 
 /* ==============================categories area=========================================== */
 #categories-area{
-margin-top: 130px;
-
+margin-top: 100px;
+/* border: 1px solid white;
+border-radius: 5px;
+background-color: white; */
 }
 
 #cards{
@@ -157,6 +167,10 @@ margin-top: 130px;
 }
 #cards img{
 height: 200px;
+}
+#title{
+	color: white;
+	text-shadow: #282d32;
 }
 /* ==============================end categories area=========================================== */
 
