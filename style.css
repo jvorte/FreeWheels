@@ -6,9 +6,13 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins',sans-serif;
+	
 }
 #menu{
 background-color: #282d32;	
+}
+body{
+	background-color: #F1F1F1;
 }
 
 .navbar{
@@ -133,14 +137,17 @@ margin-bottom:-160px;
 /* ==============================categories area=========================================== */
 #categories-area{
 margin-top: 130px;
+
 }
 
 #cards{
 	width: 20rem; 
 	float: left;
 	margin: 18px;
-	border-style: none;
-	text-align: center;
+	border-radius: 10px;
+	/* border-style: none; */
+    text-align: center;
+	box-shadow: 5px 5px 5px rgb(145, 141, 141); 
 }
 #cards img{
 height: 200px;
