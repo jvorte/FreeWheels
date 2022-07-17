@@ -13,8 +13,8 @@ background-color: #282d32;
 
 }
 body{
-	/* background-color: #F1F1F1; */
-	background-image: url(images/amb-001.jpg);
+
+background-image: url(images/amb-001.jpg);
 background-size: contain;
 		
 }
@@ -141,12 +141,16 @@ margin-bottom:-180px;
 }
 /* ==============================end about area=========================================== */
 
+
+
 /* ==============================contact area=========================================== */
 #contact-form{
 	margin-top: 185px;
 	margin-bottom:178px;
 }
 /* ==============================end contact area=========================================== */
+
+
 
 /* ==============================categories area=========================================== */
 #categories-area{
@@ -169,12 +173,24 @@ background-color: white; */
 height: 200px;
 }
 #title{
-	color: white;
-	text-shadow: #282d32;
+color: white;
+text-shadow: #282d32;
 }
 /* ==============================end categories area=========================================== */
 
+/* ==============================view category area=========================================== */
 
+#view-area{
+	margin-top: 185px;
+	margin-bottom:178px;
+	border: 1px solid white;
+border-radius: 5px;
+background-color: white; 
+height: 500px;
+}
+
+
+/* ==============================end view category area=========================================== */
 
 /* ==============================footer=========================================== */
 
